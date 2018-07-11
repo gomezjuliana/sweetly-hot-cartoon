@@ -2,9 +2,11 @@
   "name": "sweetly-hot-cartoon",
   "version": "1.0.2",
   "description": "It is a datepicker",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --out-dir dist src",
+    "prebuild": "rimraf dist"
   },
   "repository": {
     "type": "git",
@@ -14,6 +16,10 @@
     "datepicker",
     "keyboard"
   ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "author": "Juliana Gomez <juliana@gomezjuliana.com> (http://gomezjuliana.com/)",
   "license": "MIT",
   "bugs": {
@@ -21,6 +27,13 @@
   },
   "homepage": "https://github.com/gomezjuliana/sweetly-hot-cartoon#readme",
   "devDependencies": {
-    "babel-cli": "6.26.0"
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "rimraf": "2.6.2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
