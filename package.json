@@ -1,0 +1,26 @@
+{
+  "name": "sweetly-hot-cartoon",
+  "version": "1.0.2",
+  "description": "It is a datepicker",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomezjuliana/sweetly-hot-cartoon.git"
+  },
+  "keywords": [
+    "datepicker",
+    "keyboard"
+  ],
+  "author": "Juliana Gomez <juliana@gomezjuliana.com> (http://gomezjuliana.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gomezjuliana/sweetly-hot-cartoon/issues"
+  },
+  "homepage": "https://github.com/gomezjuliana/sweetly-hot-cartoon#readme",
+  "devDependencies": {
+    "babel-cli": "6.26.0"
+  }
+}
