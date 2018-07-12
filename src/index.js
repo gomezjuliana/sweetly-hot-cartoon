@@ -5,7 +5,7 @@ class Input {
     this.container = document.querySelector(`.${container}`);
     this.input = "";
     this.datepickerDiv = document.querySelector(".datepicker");
-    this.cally = new Calendar("datepicker");
+    this.cally = new Calendar.Calendar("datepicker");
   }
 
   init() {
